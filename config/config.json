@@ -1,0 +1,29 @@
+{
+  "Redis": {
+    "MaxIdle": 20,
+    "IdleTimeout": 300,
+    "MaxActive": 100,
+    "Addr": "127.0.0.1:6379",
+    "AuthPwd": "",
+    "DBIndex": 1,
+    "Prefix": "wr_"
+  },
+  "Keys": {
+    "ChristmasHatURL": "",
+    "BotName": "",
+    "WeatherKey": "",
+    "TianapiKey": "0ab3c07e1fe2fb20e74dc9b99d8b48bf",
+    "TianapiKey1": "",
+    "HoneyLove": "",
+    "LoverChName": "小英子",
+    "LoverBirthday": "05-04",
+    "MasterAccount": "",
+    "HouchangcunFans": "",
+    "BanzhuanGroup": "",
+    "BubeiGroup": "",
+    "QweatherKey": "83c3d4b6848f4abfa8981330bec334e5",
+    "BubeiStartDate": "",
+    "WuZhuangShiMembers": "",
+    "RemindMsg": "张小帅"
+  }
+}

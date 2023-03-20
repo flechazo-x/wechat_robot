@@ -1,0 +1,73 @@
+{
+  "LogLevel":5,
+  "Fields":{},
+  "OpenConsole":true,
+  "SpecialPaths":[
+    "./logs/http/"
+  ],
+  "Configs":[
+    {
+      "Dir": "./logs/panic/",
+      "Prefix": "",
+      "Level": 0,
+      "FormatMode": 2,
+      "IsValidate": true,
+      "IsWriteFile": true,
+      "IsMultiWriter": true
+    },
+    {
+      "Dir": "./logs/fatal/",
+      "Prefix": "",
+      "Level": 1,
+      "FormatMode": 2,
+      "IsValidate": true,
+      "IsWriteFile": true,
+      "IsMultiWriter": true
+    },
+    {
+      "Dir": "./logs/error/",
+      "Prefix": "",
+      "Level": 2,
+      "FormatMode": 2,
+      "IsValidate": true,
+      "IsWriteFile": true,
+      "IsMultiWriter": true
+    },
+    {
+      "Dir": "./logs/warn/",
+      "Prefix": "",
+      "Level": 3,
+      "FormatMode": 2,
+      "IsValidate": true,
+      "IsWriteFile": true,
+      "IsMultiWriter": true
+    },
+    {
+      "Dir": "./logs/info/",
+      "Prefix": "",
+      "Level": 4,
+      "FormatMode": 2,
+      "IsValidate": true,
+      "IsWriteFile": true,
+      "IsMultiWriter": true
+    },
+    {
+      "Dir": "./logs/debug/",
+      "Prefix": "",
+      "Level": 5,
+      "FormatMode": 2,
+      "IsValidate": true,
+      "IsWriteFile": true,
+      "IsMultiWriter": true
+    },
+    {
+      "Dir": "./logs/trace/",
+      "Prefix": "",
+      "Level": 6,
+      "FormatMode": 2,
+      "IsValidate": false,
+      "IsWriteFile": false,
+      "IsMultiWriter": true
+    }
+  ]
+}
